@@ -1,0 +1,78 @@
+.pur{
+  width: 100%;
+  height: 60px;
+  background-color: #b077d8;
+}
+.sam{
+  width: 1170px;
+  height: 60px;
+  margin: auto;
+}
+.grey{
+  width: 100%;
+  height: 32px;
+  background-color: #f1f1f2;
+}
+.pop .imgg img{
+  width: 120px;
+  /* height: 30px; */
+}
+.imgg{
+  width: 222px;
+}
+.inp{
+  width: 641px;
+}
+.say{
+  border: 2px solid gainsboro;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+.say i{
+  font-size: 18px;
+  padding: 0px 8px;
+}
+.say input{
+  padding: 0px 0px 0px 8px;
+  border: none;
+  outline: none;
+}
+.drp{
+  width: 320px;
+}
+.drp1{
+  width: max-content;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.drp1 b{
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dropdown :hover{
+  color: #f68b1e;
+}
+.sea{
+  background-color: #f68b1e;
+  font-size: 18px; 
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
