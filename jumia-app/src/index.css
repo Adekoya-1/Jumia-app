@@ -18,7 +18,7 @@
   padding: 8px 0px;
   position: sticky;
   top: 0px;
-  z-index: 3;
+  
 }
 .pop .imgg img{
   width: 120px;
@@ -34,7 +34,7 @@
   border: 2px solid gainsboro;
   padding: 0px 10px;
   border-radius: 5px;
-  z-index: 2;
+  
 }
 .say i{
   font-size: 18px;
@@ -45,7 +45,7 @@
   padding: 0px 0px 0px 8px;
   border: none;
   outline: none;
-  z-index: 2;
+  
 }
 .drp{
   width: 320px;
@@ -83,7 +83,6 @@
   width: 220px;
   height: 378px;
   background-color: white;
-  /* z-index: -1; */
 }
 .one i{
   font-size: 15px;
@@ -107,7 +106,7 @@
 .two{
   width: 700px;
   height: 379px;
-  z-index: 4;
+  
   /* background-color: yellow; */
 }
 .three{
@@ -117,6 +116,44 @@
 }
 .bor{
   border-radius: 5px;
+}
+.main{
+  /* margin-top: 37vh; */
+  width: 1170px;
+  margin: 36.5vh auto 0;
+  background-color: white;
+}
+.man{
+  width: 1170px;
+  margin: auto;
+  background-color: white;
+}
+.show{
+  width: 184px;
+  /* height: 190px; */
+  /* background-color: magenta; */
+}
+.show img{
+  width: 184px;
+  height: 155px;
+}
+.show p{
+  width: 184px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.top{
+  width: 1170px;
+  margin: auto;
+}
+.top h2{
+  font-size: 20px;
+  background-color: white;
+  margin-bottom: 0;
+  padding: 13px 0;
 }
 
 
