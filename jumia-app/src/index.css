@@ -13,6 +13,13 @@
   height: 32px;
   background-color: #f1f1f2;
 }
+.pop{
+  background-color: white;
+  padding: 8px 0px;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
 .pop .imgg img{
   width: 120px;
   /* height: 30px; */
@@ -27,15 +34,18 @@
   border: 2px solid gainsboro;
   padding: 0px 10px;
   border-radius: 5px;
+  z-index: 2;
 }
 .say i{
   font-size: 18px;
   padding: 0px 8px;
+  /* font-weight: 600; */
 }
 .say input{
   padding: 0px 0px 0px 8px;
   border: none;
   outline: none;
+  z-index: 2;
 }
 .drp{
   width: 320px;
@@ -63,6 +73,53 @@
   font-weight: lighter;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.bg{
+  width: 100%;
+  height: 145vh;
+  background-image: url(./images/Jumia-cover-you-bg.jpg);
+  background-repeat: no-repeat;
+}
+.one{
+  width: 220px;
+  height: 378px;
+  background-color: white;
+  /* z-index: -1; */
+}
+.one i{
+  font-size: 15px;
+}
+.one p{
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  text-align: start;
+  padding-left: 20px;
+}
+.one p:hover{
+  color: #f68b1e;
+}
+.four{
+  width: 220px;
+  height: 378px;
+  /* background-color: blue; */
+}
+.two{
+  width: 700px;
+  height: 379px;
+  z-index: 4;
+  /* background-color: yellow; */
+}
+.three{
+  width: 220px;
+  height: 180px;
+  /* background-color: aqua; */
+}
+.bor{
+  border-radius: 5px;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,5 +1,6 @@
 import React from 'react'
 import Nextnav from './Nextnav'
+import Caro from './Caro'
 
 const Nav = () => {
     return (
@@ -10,6 +11,7 @@ const Nav = () => {
         </div>
     </div>
     <Nextnav/>
+    <Caro/>
     </>
     )
 }

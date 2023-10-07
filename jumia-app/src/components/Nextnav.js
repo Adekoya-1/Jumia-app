@@ -19,7 +19,7 @@ const Nextnav = () => {
     <form className="d-flex" role="search">
         <div className="say d-flex w-100">
         <i class="fa fa-search mt-2"></i>
-        <input className="w-100 me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <input className="w-100 me-2" type="search" placeholder="Search products, brands and categories" aria-label="Search"/>
         </div>
         <button className="sea mx-2" type="submit"><b>Search</b></button>
     </form>
@@ -27,29 +27,32 @@ const Nextnav = () => {
     <div className="drp d-flex justify-content-between">
     <div className="dropdown">
         <p className="drp1 mt-3 px-2 dropdown-toggle"  data-bs-toggle="dropdown" aria-expanded="false">
-        <i className='fa fa-user'></i> <b>Account</b>
+        <i className='bi bi-person'></i> <b>Account</b>
         </p>
     <ul className="dropdown-menu">
-    <li><button className="dropdown-item" type="button">Action</button></li>
-    <li><button className="dropdown-item" type="button">Another action</button></li>
-    <li><button className="dropdown-item" type="button">Something else here</button></li>
+    <li><button className="dropdown-item" type="button">My Account</button></li>
+    <li><button className="dropdown-item" type="button"><i className="fa fa-box"></i> Orders</button></li>
+    <li><button className="dropdown-item" type="button">Saved Items</button></li>
     </ul>
 </div>
 
 <div className="dropdown">
         <p className="drp1 mt-3 px-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        <i class="fa fa-question"></i> <b>Help</b>
+        <i class="bi bi-question-circle"></i> <b>Help</b>
         </p>
     <ul className="dropdown-menu">
-    <li><button className="dropdown-item" type="button">Action</button></li>
-    <li><button className="dropdown-item" type="button">Another action</button></li>
-    <li><button className="dropdown-item" type="button">Something else here</button></li>
+    <li><button className="dropdown-item" type="button">Help Center</button></li>
+    <li><button className="dropdown-item" type="button">Place an order</button></li>
+    <li><button className="dropdown-item" type="button">Payment options</button></li>
+    <li><button className="dropdown-item" type="button">Track an order</button></li>
+    <li><button className="dropdown-item" type="button">Cancel an order</button></li>
+    <li><button className="dropdown-item" type="button">Returns & Refunds</button></li>
     </ul>
 </div>
 
 <div className="dropdown">
         <p className="drp1 mt-3 px-2">
-        <i class="fa fa-cart-arrow-down"></i> <b>Cart</b>
+        <i class="bi bi-cart"></i> <b>Cart</b>
         </p>
     
 </div>
