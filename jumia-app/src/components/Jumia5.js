@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 
-const Jumia2 = () => {
+const Jumia5 = () => {
     const [data, setdata] = useState([])
     useEffect(() => {
         axios.get("http://localhost:2001/products")
         .then((res)=>{
             // console.log(res.data);
-            setdata(res.data.slice (14,20))
+            setdata(res.data.slice (24,30))
             // console.log(data);
         })
         .catch((err)=>{
@@ -20,7 +20,7 @@ const Jumia2 = () => {
     {data&&
         <div className="purr">
             <div className="top">
-            <h2 className='px-2' style={{background: "#fee2cc"}}>Limited Stock Deals</h2>
+            <h2 className='px-2' style={{background: "#fee2cc"}}>Top Home Makeover Deals</h2>
             <div className="d-flex man p-2 justify-content-between">
             {
                 data.map((el,id)=>(
@@ -42,4 +42,4 @@ const Jumia2 = () => {
     )
 }
 
-export default Jumia2
+export default Jumia5

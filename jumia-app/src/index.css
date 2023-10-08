@@ -150,6 +150,11 @@
   height: 35vh;
   background-color: #b077d8;
 }
+.purrr{
+  width: 100%;
+  padding: 10px 0 40px;
+  background-color: #b077d8;
+}
 .top{
   width: 1170px;
   margin: auto;
@@ -164,6 +169,10 @@
   width: 184px;
   height: 250px;
   
+}
+.add{
+  width: 1170px;
+  margin: auto;
 }
 
 

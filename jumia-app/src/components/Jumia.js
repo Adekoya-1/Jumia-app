@@ -4,7 +4,7 @@ import axios from 'axios'
 const Jumia = () => {
     const [data, setdata] = useState([])
     useEffect(() => {
-        axios.get("http://localhost:1234/products")
+        axios.get("http://localhost:2001/products")
         .then((res)=>{
             // console.log(res.data);
             setdata(res.data.slice (0,6))

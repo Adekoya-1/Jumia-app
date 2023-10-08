@@ -4,6 +4,10 @@ import Jumia from './Jumia'
 import Jumia1 from './Jumia1'
 import Jumia2 from './Jumia2'
 import Art from './Art'
+import Jumia3 from './Jumia3'
+import Jumia4 from './Jumia4'
+import Jumia5 from './Jumia5'
+import Jumia6 from './Jumia6'
 
 const Caro = () => {
   return (
@@ -82,6 +86,10 @@ const Caro = () => {
         <Jumia1/>
         <Jumia2/>
         <Art/>
+        <Jumia3/>
+        <Jumia4/>
+        <Jumia5/>
+        <Jumia6/>
 
     </div>
 
