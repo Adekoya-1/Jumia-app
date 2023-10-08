@@ -2,11 +2,6 @@ import React, {useEffect,useState} from 'react'
 import axios from 'axios'
 
 const Jumia = () => {
-    const [title, settitle] = useState("")
-    const [description, setdescription] = useState("")
-    const [price, setprice] = useState("")
-    const [thumbnail, setthumbnail] = useState("")
-    const [discountPercentage, setdiscountPercentage] = useState("")
     const [data, setdata] = useState([])
     useEffect(() => {
         axios.get("http://localhost:1234/products")

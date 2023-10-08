@@ -2,6 +2,8 @@ import React from 'react'
 import Show from './Show'
 import Jumia from './Jumia'
 import Jumia1 from './Jumia1'
+import Jumia2 from './Jumia2'
+import Art from './Art'
 
 const Caro = () => {
   return (
@@ -78,6 +80,8 @@ const Caro = () => {
         <Show/>
         <Jumia/>
         <Jumia1/>
+        <Jumia2/>
+        <Art/>
 
     </div>
 
